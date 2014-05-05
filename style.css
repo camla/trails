@@ -1,0 +1,190 @@
+/*
+Theme Name: Trails (Responsive)
+Theme URI: http://camla.org
+Author: Marty Spellerberg
+Author URI: http://martyspellerberg.com/
+
+font-family:'FrutigerLTW01-45Light';
+font-family:'FrutigerLTW01-46LightIt';
+font-family:'FrutigerLTW01-55Roman';
+font-family:'FrutigerLTW01-56Italic';
+font-family:'Frutiger LT W01 65 Bold';
+font-family:'FrutigerLTW01-66BoldIta';
+
+*/
+
+
+body { color: #333; font-family:'FrutigerLTW01-45Light', Arial, sans-serif;  line-height: 1.4; font-size: 16px; margin: 0; padding: 0; background: #F0EDE5;}
+
+em {font-family:'FrutigerLTW01-46LightIt', Arial, sans-serif; font-style: normal;}
+a {text-decoration: none; color: #f62a2a; font-family:'Frutiger LT W01 65 Bold', Arial, sans-serif;}
+a:hover {color: #d72323;}
+a img {border: none;}
+	
+h2 {font-family:'Frutiger LT W01 65 Bold', Arial, sans-serif;}
+h3 {font-weight: normal; color: #717073; font-size: 16px; line-height: 1.2; font-family:'Frutiger LT W01 65 Bold', Arial, sans-serif; margin: 0 0 .25em 0;}
+h3 span {font-size: .7em; text-transform: uppercase; margin-left: .25em; }
+h3 span a {font-weight: lighter; color: #717073; }
+h4 {font-family:'Frutiger LT W01 65 Bold', Arial, sans-serif;}
+
+strong {font-family:'Frutiger LT W01 65 Bold';}
+
+blockquote {margin: auto 0; color: #717073; font-size: 21px; font-family:'FrutigerLTW01-56Italic', Arial, sans-serif;}
+
+hr {border: none; border-top: 1px solid #F0EDE5; margin: 1em 0 1em 0; height: 1px}
+
+.page { /*width: 100%;  320px */ margin: auto; background: #fff;} 
+
+.header {width: 100%; z-index: 99998;}
+
+.viewwrap {overflow: hidden; padding: 5px 0;  color: #fff; width: 100%; /* 320px */ font-size: 11px; text-align: center; border-bottom: 1px solid #605d59; z-index: 1;
+	background: #c0beb7; /* Old browsers */
+	background: -moz-linear-gradient(top, #F0EDE5 0%, #c0beb7 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F0EDE5), color-stop(100%,#c0beb7)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #F0EDE5 0%,#c0beb7 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #F0EDE5 0%,#c0beb7 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #F0EDE5 0%,#c0beb7 100%); /* IE10+ */
+	background: linear-gradient(top, #F0EDE5 0%,#c0beb7 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0EDE5', endColorstr='#c0beb7',GradientType=0 ); /* IE6-9 */
+	}
+
+.footer {overflow: hidden; padding: 5px 0;  color: #fff; width: 100%; font-size: 11px; text-align: center; border-top: 1px solid #605d59; z-index: 1;
+	background: #c0beb7; /* Old browsers */
+	background: -moz-linear-gradient(top, #F0EDE5 0%, #c0beb7 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F0EDE5), color-stop(100%,#c0beb7)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #F0EDE5 0%,#c0beb7 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #F0EDE5 0%,#c0beb7 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #F0EDE5 0%,#c0beb7 100%); /* IE10+ */
+	background: linear-gradient(top, #F0EDE5 0%,#c0beb7 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ece9e1', endColorstr='#c0beb7',GradientType=0 ); /* IE6-9 */
+	}
+
+.about h1 {margin: 0; padding: 9px 6.25% 12px 6.25%;} /* 6.25 = 20px*/
+.about h1 a {display: block; width: 280px; height: 70px; background: url(images/trails.png) no-repeat center #fff; background-size: 280px 70px; padding: 0;} /* 87.5 = 280px */
+.about h1 span {display: none}
+.about h3 {border-top: 1px solid #F0EDE5; padding: 15px 6.25% 0 6.25%;} /* 6.25 = 20px*/
+.about p {padding: 0 6.25% 15px 6.25%; margin: 0;} /* 6.25 = 20px*/
+	
+#map {}
+
+.item {border-bottom: 1px solid #F0EDE5; padding: 15px 6.25%; overflow: hidden;} /* 6.25 = 20px*/
+.address {margin: 0; font-size: .9em; color: #666;}
+.infowindow .address {display: block; margin-bottom: .5em;}
+
+.single .address {border-bottom: 1px solid #F0EDE5; padding-bottom: 1em;}
+
+
+.title {background: #fff; border-bottom: 1px solid #605d59; display: none;}
+.title .wrap {max-width: 670px; margin: auto; padding: 10px 25px; overflow: hidden;}
+.title a.trailslogo {width: 50%; float: left; display: block;}
+.title a.camlogo {width: 20%; float: right; display: block;}
+.title img {width: 100%;}
+	
+#view {max-width: 700px; margin: auto;}
+#view .anotherwrapper {  margin: auto; width: 93.75%;} /* 93.75% = 300px */
+#view h4 { display: none }
+#view ul li {width: 25%; }
+
+#navigation {max-width: 700px; margin: auto;}
+#navigation .anotherwrapper {  margin: auto; width: 93.75%; } /* 93.75% = 300px */
+#navigation ul li {width: 49%; } /* 49% = 147px */
+#navigation ul li.last {width: 49.333333333333%;} /* 49.333333333333% = 148px */
+
+
+/* Button Styles */
+
+.buttonstyle { color: #3c3a37; overflow: hidden; font-size: 11px; text-align: center; font-family:'Frutiger LT W01 65 Bold', Arial, sans-serif; text-shadow: 0 1px 0 rgba(256,256,256,0.5); }
+
+.buttonstyle .anotherwrapper { border-bottom: 1px solid rgba(256,256,256,0.3); border-radius: 8px; }
+
+.buttonstyle ul {margin: 0; padding: 0; list-style: none;  overflow: hidden; }
+
+.buttonstyle ul li {display: block; float: left; }
+.buttonstyle ul li span {margin: 0; padding: 0; overflow: auto; display: block; border-top: 1px solid rgba(0,0,0,0.29); border-bottom: 1px solid rgba(0,0,0,0.29);  border-left: 1px solid rgba(256,256,256,0.3); border-right: 1px solid rgba(0,0,0,0.29); }
+.buttonstyle ul li span a {color: #3c3a37; display: block; padding: 6px 0 5px 0;  border-top: 1px solid rgba(256,256,256,0.3); border-bottom: 1px solid rgba(256,256,256,0.1); }
+.buttonstyle ul li span a:hover {color: #d72323; cursor: pointer; }
+
+
+.buttonstyle ul li.first span { border-top-left-radius: 6px; border-bottom-left-radius: 6px; border-left: 1px solid rgba(0,0,0,0.29); }
+.buttonstyle ul li.first span a { border-top-left-radius: 6px; border-bottom-left-radius: 6px;}
+
+.buttonstyle ul li.last span {border-top-right-radius: 6px; border-bottom-right-radius: 6px; border-right: 1px solid rgba(0,0,0,0.29); }
+.buttonstyle ul li.last span a { border-top-right-radius: 6px; border-bottom-right-radius: 6px; }
+
+.buttonstyle ul li span span {color: #999; display: block; padding: 6px 0 5px 0;  border-top: 1px solid rgba(256,256,256,0.3); border-bottom: 1px solid rgba(256,256,256,0.1); border-left: none !important; border-right: none !important }
+
+.buttonstyle ul li.selected span { 
+    box-shadow: inset 0 1px 0 1px rgba(0,0,0,0.2);  
+	border-left: 1px solid transparent;
+	background: #545454; /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.56) 0%, rgba(0,0,0,0.25) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.56)), color-stop(100%,rgba(0,0,0,0.25))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.56) 0%,rgba(0,0,0,0.25) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0.56) 0%,rgba(0,0,0,0.25) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.56) 0%,rgba(0,0,0,0.25) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(0,0,0,0.56) 0%,rgba(0,0,0,0.25) 100%); /* W3C */
+	 }
+.buttonstyle ul li.selected span a {border-top: 1px solid rgba(0,0,0,0.3); border-bottom: 1px solid rgba(0,0,0,0.01); color: #fff; text-shadow: 0 1px 0 rgba(0,0,0,0.5);}
+
+
+
+/* Map */
+
+.contentholder {display: none;}
+
+.infowindow { color: #444; }
+.infowindow p { margin: 0; }
+
+#content { overflow: hidden; -webkit-overflow-scrolling: touch;}
+
+/* #content { overflow-y: scroll; -webkit-overflow-scrolling: touch;} */
+
+.back {font-size: .8em}
+
+.images {border-top: 1px solid #F0EDE5; padding-top: .5em;}
+.images img { padding: .5em 0; }
+.images p {margin: 0;}
+
+#containingBlock {
+	width: 100%;
+}
+.videoWrapper {
+	position: relative;
+	height: 0;
+}
+* html .videoWrapper {
+	margin-bottom: 45px;
+	margin-bot\tom: 0; 
+}
+.videoWrapper div,
+.videoWrapper embed, 
+.videoWrapper object {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+/* ratios */
+.wideScreen {padding-bottom: 56.25%;}
+.fourBYthree {padding-bottom: 75%;}
+/* chromes */
+.chrome_25 {padding-top: 25px;}
+.chrome_35 {padding-top: 35px;}
+
+
+
+
+/* Greater than iPhone */
+@media screen and (min-width: 480px) {
+	h1 {display: none;}
+	h3 {font-size: 24px;}
+
+	.title {display: block;}
+	.about {padding-top: 20px;}
+	.item {padding-top: 25px; padding-bottom: 25px;}
+
+	.images img {padding: .5em; float: left;}
+
+	.page {max-width: 700px;}
+} 
